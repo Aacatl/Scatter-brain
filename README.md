@@ -1,3 +1,2 @@
 # Scatter-brain
-Scatter-brain
-WIP Version 1
+Scatter-brain band website using html5, css3, and css grid.
