@@ -3,7 +3,7 @@
     padding: 0;
 }
 body{
-    background-color: aqua;
+    background-color: #001110;
 }
 .picture {
     background-image: url(../img/scatter-brainfour.jpg);
@@ -74,3 +74,92 @@ footer{
     width: 100%;
     height: 100%;
 }
+/*Buy and Sell Buttons*/
+.wrapper2{
+    display: grid;
+    grid-template-columns: 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5%;
+}
+h1 {
+    text-align: center;
+}
+h1 a{
+    text-decoration: none;
+}
+.button-buy-button{
+    border: 3px solid #efefef;
+    padding: 10px 45px 15px 70px;
+    color: crimson;
+    font-size: 17px;
+    text-transform: uppercase;
+}
+.sell-stream-button{
+    border: 3px solid #efefef;
+    padding: 10px 45px 15px 35px;
+    color: crimson;
+    font-size: 17px;
+    text-transform: uppercase;
+}
+.button-buy-button:hover{
+    background-color: #efefef;
+    transition: all 0.3s ease-in;
+}
+.sell-stream-button:hover{
+    background-color: #efefef;
+    transition: all 0.3s ease-in;
+}
+footer{
+    margin: 0;
+    padding: 0;
+}
+/*Contact*/
+.contact{
+    text-align: center;
+    margin-top: 200px;
+}
+/*Footer buttons*/
+.middle{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 0px;
+}
+
+  .btn1{
+    display: inline-block;
+    width: 90px;
+    height: 90px;
+    background: #efefef;
+    margin: 50px;
+    border-radius: 30%;
+    box-shadow: 0 5px 15px -5px #1b1b1b;
+    color: #8b161c;
+    overflow: hidden;
+    position: relative;
+  }
+  .btn1 i{
+    line-height: 90px;
+    font-size: 26px;
+    transition: 0.2s linear;
+  }
+  .btn1:hover i{
+    transform: scale(1.3);
+    color: #efefef;
+  }
+  .btn1::before{
+    content: "";
+    position: relative;
+    width: 120%;
+    height: 120%;
+    background: #8b161c;
+    transform: rotate(45deg);
+    left: -110%;
+    top: 90%;
+  }
+  .btn1:hover::before{
+    animation: aaa 0.7s 1;
+    top: -10%;
+    left: -10%;
+  }
